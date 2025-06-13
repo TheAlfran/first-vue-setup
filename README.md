@@ -1,29 +1,26 @@
-# first-project
 
-This template should help get you started developing with Vue 3 in Vite.
+# Vue 3 Project
 
-## Recommended IDE Setup
+My project setup using vue 3 and tailwind css.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Install Vue:
 
-## Project Setup
-
-```sh
-npm install
+```bash
+npm create vue@latest 
 ```
 
-### Compile and Hot-Reload for Development
+Install Tailwind CSS:
 
-```sh
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+## How to run
+
+Use npm:
+
+```bash
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
